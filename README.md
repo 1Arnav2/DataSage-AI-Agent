@@ -26,7 +26,7 @@ This is a Streamlit web app that uses Google's Gemini AI to answer questions abo
 
 &nbsp;   `GOOGLE\_API\_KEY = "YOUR\_API\_KEY\_HERE"`
 
-&nbsp;   
+  
 
 4\.  Run the app:
 
