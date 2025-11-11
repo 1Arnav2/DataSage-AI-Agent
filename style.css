@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body, [class*="st-"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* This centers your app on the page */
+div[data-testid="block-container"] {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* This fixes the button alignment */
+div[data-testid="column"]:has(div.stButton) {
+    /* Aligns the button to the bottom of the column */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
